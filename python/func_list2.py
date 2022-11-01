@@ -79,7 +79,7 @@ def List1():
 
 def adl1l2():
    for u in range (len(l and l2)):
-    print("Addtion of List 1 and list 2 : {}".format(int(l[u])+int(l[u])))
+    print("Addtion of List 1 and list 2 : {}".format(int(l[u])+int(l2[u])))
 #-------------------------------------------------------------------------------------------------getting index
 #        for x in l:
 #            for y in l2:
