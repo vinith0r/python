@@ -73,7 +73,7 @@ def List1():
             if t==1:
                 pop1() #incompleted
             elif t==2:
-                l2.pop()
+                l.pop()
                 print("\n\npoping last Element in the list 1........\n\n")
                 print("\n\nLIST 1 {}: \n\n ".format(l))
             else:
@@ -228,7 +228,7 @@ def play():
             continue
 #menu
 #Modifing the List 1 and list 2 
-def modify():
+def menu():
     while True:
         top()
         mod=int(input("\n\n(1) modify List 1\n\n(2) modify list 2\n\n(3) play (4) linux (5) exit \n\n$:>>>>: "))
@@ -246,5 +246,5 @@ def modify():
         else:
             print("\n!!put correct option!!\n")
             continue
-#calling functions
-modify()
+#calling menu functions
+menu()
