@@ -191,7 +191,7 @@ def play():
             print("\nExtended List : {}\n".format(l))
         elif j==3:
             if l==l2:
-                print("\nList 1:{} and List:{} 2 are SAME\n".format(l, l2))
+                print("\nList 1:{} and List 2 :{} are SAME\n".format(l, l2))
             else:
                 print("\nList 1:{} and List 2:{} are not SAME\n".format(l, l2))
         elif j==4:
