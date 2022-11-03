@@ -233,7 +233,7 @@ def menu():
         top()
         mod=int(input("\n\n(1) modify List 1\n\n(2) modify list 2\n\n(3) play (4) linux (5) exit \n\n$:>>>>: "))
         if mod==1:
-           List1()
+            List1()
         elif mod==2:
             List2()
         elif mod==3:
