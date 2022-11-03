@@ -109,7 +109,7 @@ def List1():
 def MorI():
     q = int(input("\n(1)check list 1 (2)check list 2 : "))
     if q==1:
-        if l is l.append('1'):
+        if l is l.append('1'):                          #comparing the address/id of the l and after modification of value using 'is'
             print("\n\nLIST 1 is 'MUTABLE'\n\n")
         else:
             print("\n\nLIST 1 is 'IMUTABLE'\n\n")
