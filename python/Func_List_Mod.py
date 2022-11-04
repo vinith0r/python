@@ -105,6 +105,7 @@ def List1():
 # >>> list.append('j')
 # >>> list
 # >>> ['hello', '132.1', 'welcome', 'j']
+# >>> id(list)
 # >>> 140501974891712
 def MorI():
     q = int(input("\n(1)check list 1 (2)check list 2 : "))
@@ -163,7 +164,7 @@ def rem1():
 #integer divition of list 1 and 2
 def intdiv():
    for u in range (len(l and l2)):
-    print("\ninteger divition of List 1 and list 2 : {}".format(float(l[u])//float(l[u])))
+    print("\ninteger divition of List 1 and list 2 : {}".format(int(l[u])//int(l[u])))
 # order of list 1 and 2
 def order1():
    for u in range (len(l and l2)):
